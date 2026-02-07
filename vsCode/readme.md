@@ -6,7 +6,7 @@ code --list-extensions > extensions.txt
 ```
 
 
-## Reintsall extensions
+## Reinstall extensions
 
 **Linux**
 ```bash
