@@ -1,0 +1,12 @@
+{
+	
+
+
+"Template literal": {
+	 	"prefix": "aaa",
+	 	"body": [
+	 		"`\\${$0}`"
+	 	],
+	 	"description": "Create template literal"
+	 }
+}
