@@ -48,7 +48,6 @@ vscjava.vscode-maven
 vscjava.vscode-spring-initializr
 vscodevim.vim
 walkme.java-extension-pack
-wayou.vscode-todo-highlight
 wholroyd.jinja
 xabikos.javascriptsnippets
 zignd.html-css-class-completion
