@@ -186,10 +186,18 @@
       "before": ["leader", "d"],
       "commands": ["editor.action.revealDefinition"],
     },
-      {
-        "before": ["leader", "r"],
-        "commands": ["editor.action.goToReferences"]
-      }
+    {
+      "before": ["leader", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["leader", "E"],
+      "commands": ["editor.action.marker.prev"]
+    },
   ],
   "vim.visualModeKeyBindings": [
     // Stay in visual mode while indenting
@@ -210,4 +218,5 @@
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
 }
+
 
