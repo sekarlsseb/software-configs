@@ -62,6 +62,15 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features",
   },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
   "go.toolsManagement.autoUpdate": true,
 
 
