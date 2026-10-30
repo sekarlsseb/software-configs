@@ -25,3 +25,16 @@ nnoremap <C-u> <C-u>zz
 
 :set number
 :set relativenumber
+
+" Make Alt work in terminal Vim (the terminal sends Alt+j as Esc then j)
+execute "set <M-j>=\ej"
+execute "set <M-k>=\ek"
+set ttimeout ttimeoutlen=50
+
+" Move lines with Alt+j / Alt+k
+nnoremap <M-j> :m .+1<CR>==
+nnoremap <M-k> :m .-2<CR>==
+inoremap <M-j> <Esc>:m .+1<CR>==gi
+inoremap <M-k> <Esc>:m .-2<CR>==gi
+vnoremap <M-j> :m '>+1<CR>gv=gv
+vnoremap <M-k> :m '<-2<CR>gv=gv
