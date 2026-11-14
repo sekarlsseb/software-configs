@@ -1,5 +1,4 @@
 andenetalexander.vim-cheatsheet
-batisteo.vscode-django
 bradlc.vscode-tailwindcss
 dbaeumer.vscode-eslint
 docker.docker
@@ -12,8 +11,6 @@ esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 formulahendry.code-runner
 georgewfraser.vscode-javac
-github.copilot
-github.copilot-chat
 golang.go
 gruntfuggly.todo-tree
 jock.svg
